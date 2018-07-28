@@ -1,5 +1,26 @@
 # vue-rem-layout-start
 
+
+## intro
+A vue-cli3-based mobile rem layout initial project
+
+
+### vue-cli3 Version
+
+@vue/cli 3.0.0-rc.8
+
+
+## Pre-rendering tool
+
+- *html*:  
+pug
+
+- *js*:  
+typescript
+
+- *css*:  
+less
+
 ## Project setup
 ```
 npm install
