@@ -5,5 +5,14 @@ module.exports = {
             .use('pug-html-loader')
             .loader('pug-html-loader')
             .end()
+    },
+    css: {
+        loaderOptions: {
+            postcss: {
+                plugins: (loader) => [
+                    require('postcss-px2rem')({remUnit: 75}),
+                ]
+            }
+        }
     }
 }
